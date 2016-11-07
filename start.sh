@@ -88,5 +88,6 @@ if [ -f $ACL_SH ]; then
   fi
 fi
  
+service samba restart
 echo done!
 tail -f /dev/null
