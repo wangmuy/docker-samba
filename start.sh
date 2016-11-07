@@ -39,7 +39,7 @@ grouplist="$grouplist @$group"
 
 $DEBUG groupadd -f $group
 $DEBUG mkdir -p $smbshare_path/$g
-$DEBUG chmod 3770 $smbshare_path/$g
+$DEBUG chmod 1770 $smbshare_path/$g
 $DEBUG chown -Rh :$group $smbshare_path/$g
 
 shift
